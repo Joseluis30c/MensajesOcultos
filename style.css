@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(243, 194, 88);
+    animation: dark 3s 5s forwards;
+}
+
+@keyframes dark {
+    100%{
+        background-color: black;
+    }
+}
+
+
+p{
+    width: min(100% -2em, 600px);
+    font-size: 2.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+span {
+    color: black;
+    animation: delete 4s 8s forwards;
+}
+@keyframes delete {
+    100%{
+        font: 0/0 a;
+    }
+}
+
