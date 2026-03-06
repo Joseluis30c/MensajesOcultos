@@ -11,7 +11,6 @@ Aplicación o herramienta para **generar y descubrir mensajes ocultos** dentro d
 
 -   Descripción
 -   Tecnologías utilizadas
--   Cómo funciona
 -   Estructura del proyecto
 -   Cómo ejecutar el proyecto
 -   Ejemplo de código
